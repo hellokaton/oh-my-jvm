@@ -1,9 +1,11 @@
 package classpath
 
-import "archive/zip"
-import "errors"
-import "io/ioutil"
-import "path/filepath"
+import (
+	"io/ioutil"
+	"errors"
+	"path/filepath"
+	"archive/zip"
+)
 
 type ZipEntry struct {
 	absPath string

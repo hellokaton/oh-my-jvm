@@ -1,7 +1,9 @@
 package classpath
 
-import "os"
-import "path/filepath"
+import (
+	"os"
+	"path/filepath"
+)
 
 type Classpath struct {
 	bootClasspath Entry

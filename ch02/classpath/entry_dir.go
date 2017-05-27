@@ -1,7 +1,9 @@
 package classpath
 
-import "io/ioutil"
-import "path/filepath"
+import (
+	"path/filepath"
+	"io/ioutil"
+)
 
 type DirEntry struct {
 	absDir string

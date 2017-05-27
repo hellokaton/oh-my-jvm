@@ -1,7 +1,9 @@
 package classpath
 
-import "os"
-import "strings"
+import (
+	"os"
+	"strings"
+)
 
 // :(linux/unix) or ;(windows)
 const pathListSeparator = string(os.PathListSeparator)
